@@ -1,0 +1,63 @@
+{
+    "quotes": [
+
+    {
+        "Inspiration":"",
+
+        "01" : "“Anyone who has ever made anything of importance was disciplined.” — Andrew Hendrixson",
+
+        "02" : "“Don’t spend time beating on a wall, hoping to transform it into a door.” — Coco Chanel",
+
+        "03" : "“Creativity is intelligence having fun.” — Albert Einstein",
+
+        "04" : "“Optimism is the one quality more associated with success and happiness than any other.” — Brian Tracy",
+
+        "05" : "“Always keep your eyes open. Keep watching. Because whatever you see can inspire you.” — Grace Coddington" 
+       
+    },
+
+    {
+        "Literature": "",
+
+        "01" :"“It is a far, far better thing that I do, than I have ever done; it is a far, far better rest I go to than I have ever known.” - A Tale of Two Cities, Charles Dickens",
+
+        "02" :"“We are such stuff as dreams are made on, and our little life is rounded with a sleep.” - The Tempest, William Shakespeare",
+
+        "03" : "“Whenever you feel like criticizing anyone … just remember that all the people in this world haven’t had the advantages that you’ve had.” - The Great Gatsby, F. Scott Fitzgerald“",
+
+        "04":"“It matters not what someone is born, but what they grow to be.” - Harry Potter and the Goblet of Fire, J.K. Rowling"
+
+    }, 
+
+    {
+        "Romance": "",
+    
+    "01" : "“The greatest thing you’ll ever learn is just to love, and be loved in return.” ~ Moulin Rouge",
+
+
+    "02" : "“To me, you are perfect” ~ Love Actually",
+
+    "03" : "“If you’re a bird, I’m a bird.” ~ The Notebook",
+
+    "04" : "“The only way you can beat my crazy was by doing something crazy yourself. Thank you. I love you. I knew it the minute I met you. I’m sorry it took so long for me to catch up. I just got stuck.” ~ The Silver Linings Playbook",
+
+
+    "05" : "“I’m also just a girl, standing in front of a boy, asking him to love her.” ~ Notting Hill"
+    },
+
+    {
+        "Philosophy": "",
+    "01": "“The unexamined life is not worth living” – Socrates",
+
+    "02" : "“Whereof one cannot speak, thereof one must be silent” – Ludwig Wittgenstein",
+
+    "03": "“The life of man (in a state of nature) is solitary, poor, nasty, brutish, and short” – Thomas Hobbes",
+
+
+    "04" : "“I think therefore I am” (“Cogito, ergo sum”) – René Descartes",
+
+    "05": "“He who thinks great thoughts, often makes great errors” – Martin Heidegger"
+    }
+
+]
+}

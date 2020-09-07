@@ -1,0 +1,66 @@
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body, button, select {
+    
+    font-family: 'montserrat';
+    overflow: hidden;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h5 {
+        padding: .5rem 0;
+        border-bottom: 2px solid #1d1d26;
+    }
+}
+
+.text {
+    padding: 4rem 0;
+    
+    p {
+        font-size: .5rem;
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+form {
+    text-align: center;
+}
+
+select, input {
+    border:  none;
+    outline: none;
+    background-color: transparent;
+    padding: .3rem 1rem;
+    font-size: .4rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    box-shadow: none;
+    color: #1d1d26;
+}
+        
+input {
+    color: #1d1d26;
+    border: 1px solid #1d1d26;
+    margin: 1rem 2rem;
+    background: transparent;
+    font-weight: 700;
+}
+
+input:hover {
+    background: #1d1d26;
+    color: #fff;
+}
+       

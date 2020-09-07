@@ -1,0 +1,75 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body, button, select {
+  font-family: 'montserrat';
+  overflow: hidden;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container h5 {
+  padding: .5rem 0;
+  border-bottom: 2px solid #1d1d26;
+}
+
+.text {
+  padding: 4rem 0;
+}
+
+.text p {
+  font-size: .5rem;
+  width: 70%;
+  margin: 0 auto;
+}
+
+form {
+  text-align: center;
+}
+
+select, input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: .3rem 1rem;
+  font-size: .4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #1d1d26;
+}
+
+input {
+  color: #1d1d26;
+  border: 1px solid #1d1d26;
+  margin: 1rem 2rem;
+  background: transparent;
+  font-weight: 700;
+}
+
+input:hover {
+  background: #1d1d26;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

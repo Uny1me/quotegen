@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./design/favicon.png">
+    <link rel="stylesheet" href="./design/style.css">
+    <title>Random Text Generator</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <h5>QUOTES!</h5>
+
+        <div class="text">
+             <p id="quotted"></p>
+        </div>
+        <form action="">
+            <select name="topics" id="topic">
+                <option value="philosophy">Philosophy</option>
+                <option value="inspirational">Inspirational</option>
+                <option value="romance">Romance</option>
+                <option value="literature">Literature</option>
+            </select>
+            <br>
+            <input type="button" value="Quote!" id="quote">
+        </form>
+
+
+    </div>
+      
+        
+
+
+    <script>
+        window.onload = function() {
+
+     var xhr = new XMLHttpRequest(); 
+
+     xhr.onreadystatechange = function() {
+     
+        if (xhr.readyState === 4 && xhr.status === 200) {
+           
+
+           var jsonObj = JSON.parse(xhr.responseText); 
+
+           var ins = jsonObj.quotes[0];
+           var lit = jsonObj.quotes[1];
+           var rom = jsonObj.quotes[2];
+           var phil = jsonObj.quotes[3];
+           
+            const inspirational = [ins["01"], ins["02"], ins["03"], ins["04"], ins["05"]];
+            const literature = [lit["01"], lit["02"], lit["03"], lit["04"]];
+            const romance  = [rom["01"], rom["02"], rom["03"], rom["04"]];
+            const philosophy = [phil["01"], phil["02"], phil["03"], phil["04"], phil["05"]];
+    
+        
+        var quote = document.getElementById('quote');
+        var topic = document.getElementById('topic');
+        var p = document.getElementById('quotted');
+       
+
+
+        function getQuote(test) {    
+        
+            p.textContent = test[Math.floor(Math.random() * test.length)];
+        }
+
+        quote.onclick = function () {
+
+            if(topic.value == 'inspirational') {
+                getQuote(inspirational);           
+            }
+            else if(topic.value == 'philosophy') {
+                getQuote(philosophy);  
+            }
+            else if(topic.value == 'romance') {
+                getQuote(romance);  
+            }
+            else if(topic.value == 'literature') {
+                getQuote(literature);  
+            }
+        }
+                      
+    }
+}
+         
+    xhr.open('GET', 'quotes.json');
+
+    xhr.send();
+
+}
+       
+
+
+    </script>
+</body>
+</html>
